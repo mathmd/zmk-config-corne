@@ -49,10 +49,10 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp GRAVE  &kp N1       &kp N2       &kp N3       &kp N4       &kp N5      &kp CARET &kp AMPS  &kp STAR  &kp LPAR &kp RPAR &kp PLUS
-   &trans     &kp RET      &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT   &trans    &kp PG_DN &kp PG_UP &kp LBRC &kp RBRC &kp UNDER
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &kp C_VOL_UP &kp C_VOL_DN &kp C_MUTE  &trans    &trans    &trans    &trans   &trans   &trans
-                                        &trans       &trans       &trans      &trans    &trans &kp RGUI
+   &kp GRAVE  &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp CARET  &kp AMPS     &kp STAR     &kp LPAR &kp RPAR &kp PLUS
+   &trans     &kp RET      &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &trans     &kp PG_DN    &kp PG_UP    &kp LBRC &kp RBRC &kp UNDER
+   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bp BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &kp C_MUTE &kp C_VOL_UP &kp C_VOL_DN &trans   &trans   &trans
+                                        &trans       &trans       &trans       &trans     &trans       &kp RGUI
                         >;
                 };
 
