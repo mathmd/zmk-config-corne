@@ -54,7 +54,7 @@
    // &kp GRAVE  &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp N7     &kp N8     &kp N9 &kp N0 &kp EQUAL
    &trans     &kp RET      &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &kp LEFT     &kp DOWN    &kp UP    &kp RIGHT &trans  &kp UNDER
    // &trans     &kp RET      &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &trans     &kp PG_DN    &kp PG_UP    &kp LBKT &kp RBKT &kp MINUS
-   &trans     &trans       &trans       &kp PG_UP       &kp PG_DN       &trans       &kp C_MUTE &kp C_VOL_UP &kp C_VOL_DN &kp LBRC   &kp RBRC   &trans
+   &trans     &trans       &trans       &kp PG_UP       &kp PG_DN       &trans       &kp C_MUTE &kp C_VOL_UP &kp C_VOL_DN &trans  &kp LBRC   &kp RBRC   
                                         &trans       &trans       &trans       &trans     &trans       &kp RGUI
                         >;
                 };
@@ -70,7 +70,7 @@
    // &kp TILDE  &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT      &kp CARET  &kp AMPS     &kp STAR     &kp LPAR &kp RPAR &kp PLUS  
    &trans     &trans       &trans       &trans       &trans       &trans            &trans   &trans   &trans &trans &trans &kp MINUS
    // &trans     &trans       &trans       &trans       &trans       &trans            &trans   &trans   &trans &kp LBRC  &kp RBRC &kp UNDER
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &trans   &trans   &trans &kp LBKT    &kp RBKT   &trans
+   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &trans   &trans   &trans &trans &kp LBKT    &kp RBKT   
                                &kp LGUI            &trans  &trans      &trans   &trans   &trans
                         >;
                 };
