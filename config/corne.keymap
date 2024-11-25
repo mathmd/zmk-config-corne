@@ -35,8 +35,8 @@
 // | S/HM |  z  |  x  |  c  |  v  |  b  |   |  n  |  m   |  ,  |  .  |  /  | A/ED |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &mt LALT TAB  &kp Q    &kp W         &kp E            &kp R         &kp T         &kp Y &kp U  &kp I     &kp O     &kp P      &kp BSLH
-   &lt 2 RET     &kp A    &kp S         &kp D            &kp F         &kp G         &kp H &kp J  &kp K     &kp L     &kp SEMI &kp SQT
+   &lt 2 TAB  &kp Q    &kp W         &kp E            &kp R         &kp T         &kp Y &kp U  &kp I     &kp O     &kp P      &kp BSLH
+   &mt LALT RET     &kp A    &kp S         &kp D            &kp F         &kp G         &kp H &kp J  &kp K     &kp L     &kp SEMI &kp SQT
    &kp LSHFT     &kp Z &kp X         &lt 3 SPACE            &kp C         &kp V         &kp B &kp N  &kp M     &kp COMMA &kp DOT  &kp FSLH 
                   // &kp LALT &lt 1 SPACE &lt 2 BSPC       &mt RSHFT RET     &lt 1 SPACE  &kp RALT
                   &kp LGUI &kp CAPS &lt 1 BSPC       &mt RSHFT RET     &lt 1 SPACE  &kp RALT
