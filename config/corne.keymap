@@ -36,10 +36,10 @@
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
    &kp TAB       &kp Q        &kp W        &kp E              &kp R           &kp T         &kp Y &kp U  &kp I     &kp O     &kp P      &kp BSPC
-   &lt 3 GRAVE     &mt LSHFT A  &kp S      &lt 4 D            &kp F         &kp G         &kp H &kp J  &kp K     &kp L     &mt RSHFT SEMI &lt 3 SQT
-   &kp LALT   &lt 2 Z   &kp X        &kp C              &kp V           &kp B         &kp N &mt RALT M  &kp COMMA &kp DOT   &lt 2 FSLH  &mt RALT BSLH
+   &mt LALT GRAVE     &mt LSHFT A  &kp S      &lt 4 D            &lt 3 F         &kp G         &kp H &kp J  &kp K     &kp L     &mt RSHFT SEMI &lt 3 SQT
+   &lt 3 HOME   &lt 2 Z   &kp X        &kp C              &kp V           &kp B         &kp N &mt RALT M  &kp COMMA &kp DOT   &lt 2 FSLH  &mt RALT BSLH
                   // &kp LALT &lt 1 SPACE &lt 2 BSPC       &mt RSHFT RET     &lt 1 SPACE  &kp RALT
-                  &kp LGUI &lt 1 SPACE &mt LCTRL ESC       &mt RALT RET     &lt 1 SPACE  &kp RALT
+                  &kp LGUI &mt LCTRL ESC &lt 1 SPACE       &lt 1 RET     &mt RALT SPACE  &kp RALT
                         >;
                 };
 
@@ -52,7 +52,7 @@
                         bindings = <
    // &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp CARET  &kp AMPS     &kp STAR     &kp LPAR  &kp RPAR  &kp UNDER  &kp PLUS   
    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp N7     &kp N8     &kp N9 &kp N0 &kp MINUS &kp EQUAL  
-   &kp RET      &kp SPACE    &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT &kp LBRC  &kp RBRC 
+   &kp RET      &kp SPACE    &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT &kp LBKT  &kp RBKT 
    // &trans     &kp RET      &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &trans     &kp PG_DN    &kp PG_UP    &kp LBKT &kp RBKT &kp MINUS
    &trans     &trans           &kp C_MUTE &kp C_VOL_UP &kp C_VOL_DN   &trans            &trans  &kp C_BRI_DN  &kp C_BRI_UP    &kp C_BRI_AUTO  &trans  &trans
                                         &trans       &trans       &trans       &trans     &trans       &kp RGUI
@@ -68,7 +68,7 @@
                         bindings = <
    // &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT       &kp N6   &kp N7   &kp N8 &kp N9    &kp N0    &kp MINUS &kp EQUAL
    &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT      &kp CARET  &kp AMPS     &kp STAR     &kp LPAR &kp RPAR &kp UNDER &kp PLUS  
-   &kp TILDE       &trans       &trans    &trans   &trans       &trans            &kp HOME   &kp PG_DN   &kp PG_UP &kp END  &kp LBKT &kp RBKT   
+   &kp TILDE       &trans       &trans    &trans   &trans       &trans            &kp HOME   &kp PG_DN   &kp PG_UP &kp END  &kp LBRC &kp RBRC   
    // &trans     &trans       &trans       &trans       &trans       &trans            &trans   &trans   &trans &kp LBRC  &kp RBRC &kp UNDER
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4    &trans       &trans  &trans   &trans &trans &trans
                                &kp LGUI            &trans  &trans      &trans   &trans   &trans
