@@ -85,7 +85,7 @@
    &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT      &kp CARET  &kp AMPS     &kp STAR     &kp LPAR &kp RPAR &kp UNDER &kp PLUS  
    &kp TILDE       &trans       &trans    &trans   &trans       &trans            &kp HOME   &kp PG_DN   &kp PG_UP &kp END  &kp LBRC &kp RBRC   
    // &trans     &trans       &trans       &trans       &trans       &trans            &trans   &trans   &trans &kp LBRC  &kp RBRC &kp UNDER
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4    &trans       &trans  &trans   &trans &trans &trans
+   &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4    &trans       &trans  &trans   &trans &trans &trans
                                &kp LGUI            &trans  &trans      &trans   &trans   &trans
                         >;
                 };
@@ -102,7 +102,7 @@
    // &trans &kp F9   &kp F10 &trans   &kp F11 &kp F12     &kp SLASH &kp KP_N1  &kp KP_N2  &kp KP_N3 &kp KP_COMMA &kp KP_EQUAL
    &trans &kp F1   &kp F2  &kp F3   &kp F4  &trans      &kp N7  &kp N8  &kp N9 &kp N0    &kp MINUS   &kp PLUS
    &trans &kp F5   &kp F6  &kp F7   &kp F8  &kp PSCRN   &kp ASTRK &kp N4  &kp N5  &kp N6  &kp DOT &kp EQUAL
-   &trans &kp F9   &kp F10 &kp F11  &kp F12 &trans      &kp COMMA  &kp N1  &kp N2  &kp N3 &kp SLASH   &kp PRCNT
+   &bt BTCLR &kp F9   &kp F10 &kp F11  &kp F12 &trans      &kp COMMA  &kp N1  &kp N2  &kp N3 &kp SLASH   &kp PRCNT
                            &kp LGUI &trans  &trans      &trans    &trans  &kp RALT
                         >;
                 };
