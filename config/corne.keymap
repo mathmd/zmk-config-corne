@@ -69,7 +69,7 @@
    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp N7     &kp N8     &kp N9 &kp N0 &kp MINUS &kp EQUAL  
    &kp RET      &kp SPACE    &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT &kp LBKT  &kp RBKT 
    // &trans     &kp RET      &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &trans     &kp PG_DN    &kp PG_UP    &kp LBKT &kp RBKT &kp MINUS
-   &trans     &trans           &kp C_MUTE &kp C_VOL_UP &kp C_VOL_DN   &trans            &trans  &kp C_BRI_DN  &kp C_BRI_UP    &kp C_BRI_AUTO  &trans  &trans
+   &trans     &trans           &kp C_MUTE &kp C_VOL_UP &kp C_VOL_DN   &trans            &trans  &tran &trans  &trans  &trans  &trans
                                         &trans       &trans       &trans       &trans     &trans       &kp RGUI
                         >;
                 };
