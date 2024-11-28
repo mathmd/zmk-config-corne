@@ -54,7 +54,7 @@
    &mt LALT GRAVE     &bhm LSHFT A  &lt 5 S      &lt 4 D            &lt 3 F         &kp G         &kp H &kp J  &kp K     &kp L     &bhm RSHFT SEMI &lt 3 SQT
    &kp RET   &lt 2 Z   &kp X        &kp C              &kp V           &kp B         &kp N &bhm RALT M  &lt 3 COMMA &kp DOT   &lt 2 FSLH  &kp BSPC
                   // &kp LALT &lt 1 SPACE &lt 2 BSPC       &mt RSHFT RET     &lt 1 SPACE  &kp RALT
-                  &lt 1 LGUI &mt LCTRL ESC &bhm LGUI SPACE       &kp RET     &bhm RALT SPACE  &lt 1 RGUI
+                  &lt 1 HOME &mt LCTRL ESC &bhm LGUI SPACE       &kp RET     &kp SPACE  &lt 1 END
                         >;
                 };
 
