@@ -51,10 +51,10 @@
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
    &kp TAB       &kp Q        &kp W        &kp E              &kp R           &kp T         &kp Y &kp U  &kp I     &kp O     &kp P      &kp BSLH
-   &mt LALT GRAVE     &bhm LSHFT A  &lt 5 S      &lt 4 D            &lt 3 F         &kp G         &kp H &kp J  &kp K     &kp L     &bhm RSHFT SEMI &mt RCTRL SQT
-   &kp RET   &lt 2 Z   &kp X        &kp C              &kp V           &kp B         &kp N &bhm RALT M  &lt 3 COMMA &kp DOT   &lt 2 FSLH  &kp BSPC
+   &mt LALT GRAVE     &bhm LSHFT A  &lt 5 S      &lt 4 D            &lt 3 F         &kp G  &kp H &kp J  &kp K     &kp L     &bhm RSHFT SEMI &mt RCTRL SQT
+   &kp RET   &kp Z   &kp X        &kp C              &kp V           &kp B         &kp N &kp M  &kp COMMA &kp DOT   &kp FSLH  &kp BSPC
                   // &kp LALT &lt 1 SPACE &lt 2 BSPC       &mt RSHFT RET     &lt 1 SPACE  &kp RALT
-                  &kp LGUI &mt LCTRL ESC &lt 1 SPACE       &lt 2 RET     &mt RALT RET  &lt 1 END
+                  &kp LGUI &mt LCTRL ESC &lt 1 TAB       &lt 2 SPACE     &mt RALT RET  &mo 3
                         >;
                 };
 
@@ -65,9 +65,10 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   // &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp CARET  &kp AMPS     &kp STAR     &kp LPAR  &kp RPAR  &kp UNDER  &kp PLUS   
-   &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp N7     &kp N8     &kp N9 &kp N0 &kp MINUS &kp EQUAL  
-   &trans      &trans    &trans     &trans       &trans     &trans    &trans     &trans     &trans       &trans &kp LBKT  &kp RBKT 
+   &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp CARET  &kp AMPS     &kp STAR     &kp LPAR  &kp RPAR  &kp UNDER  &kp PLUS   
+   // &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp N7     &kp N8     &kp N9 &kp N0 &kp MINUS &kp EQUAL  
+   &kp TILDE       &trans       &trans    &trans   &trans       &trans            &trans   &trans   &trans &trans  &kp LBRC &kp RBRC   
+   // &trans      &trans    &trans     &trans       &trans     &trans    &trans     &trans     &trans       &trans &kp LBKT  &kp RBKT 
    // &trans     &kp RET      &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &trans     &kp PG_DN    &kp PG_UP    &kp LBKT &kp RBKT &kp MINUS
    &trans     &trans           &trans &trans &trans   &trans            &trans  &trans &trans  &trans  &trans  &trans
                                         &trans       &trans       &trans       &mo 5     &trans       &trans
@@ -83,7 +84,8 @@
                         bindings = <
    // &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT       &kp N6   &kp N7   &kp N8 &kp N9    &kp N0    &kp MINUS &kp EQUAL
    &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT      &kp CARET  &kp AMPS     &kp STAR     &kp LPAR &kp RPAR &kp UNDER &kp PLUS  
-   &kp TILDE       &trans       &trans    &trans   &trans       &trans            &trans   &trans   &trans &trans  &kp LBRC &kp RBRC   
+   // &kp TILDE       &trans       &trans    &trans   &trans       &trans            &trans   &trans   &trans &trans  &kp LBRC &kp RBRC   
+   &trans      &trans    &trans     &trans       &trans     &trans    &trans     &trans     &trans       &trans &kp LBKT  &kp RBKT 
    // &trans     &trans       &trans       &trans       &trans       &trans            &trans   &trans   &trans &kp LBRC  &kp RBRC &kp UNDER
    &trans &trans   &trans  &trans   &trans  &trans    &trans       &trans  &trans   &trans &trans &trans
                                &trans            &trans  &mo 5      &trans   &trans   &trans
