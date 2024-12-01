@@ -69,7 +69,7 @@
                         bindings = <
    // &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp AMPS     &kp STAR     &kp LPAR  &kp RPAR  &kp UNDER  &kp PLUS   
    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp N7     &kp N8     &kp N9 &kp N0 &kp MINUS &kp EQUAL  
-   &kp TILDE       &trans       &trans    &trans   &trans       &trans            &trans   &trans   &trans &trans  &kp LBRC &kp RBRC   
+   &kp GRAVE       &trans       &trans    &trans   &trans       &trans            &trans   &trans   &trans &trans  &kp LBRC &kp RBRC   
    // &trans      &trans    &trans     &trans       &trans     &trans    &trans     &trans     &trans       &trans &kp LBKT  &kp RBKT 
    // &trans     &kp RET      &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &trans     &kp PG_DN    &kp PG_UP    &kp LBKT &kp RBKT &kp MINUS
    &trans     &trans           &trans &trans &trans   &trans            &trans  &trans &trans  &trans  &trans  &trans
@@ -87,7 +87,7 @@
    &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT       &kp CARET   &kp N7   &kp N8 &kp N9    &kp N0    &kp MINUS &kp EQUAL
    // &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT      &kp CARET  &kp AMPS     &kp STAR     &kp LPAR &kp RPAR &kp UNDER &kp PLUS  
    // &kp TILDE       &trans       &trans    &trans   &trans       &trans            &trans   &trans   &trans &trans  &kp LBRC &kp RBRC   
-   &kp GRAVE      &trans    &trans     &trans       &trans     &trans    &trans     &trans     &trans       &trans &kp LBKT  &kp RBKT 
+   &kp TILDE      &trans    &trans     &trans       &trans     &trans    &trans     &trans     &trans       &trans &kp LBKT  &kp RBKT 
    // &trans     &trans       &trans       &trans       &trans       &trans            &trans   &trans   &trans &kp LBRC  &kp RBRC &kp UNDER
    &trans &trans   &trans  &trans   &trans  &trans    &trans       &trans  &trans   &trans &trans &trans
                                &trans            &trans  &mo 5      &trans   &trans   &trans
