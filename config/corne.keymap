@@ -51,10 +51,12 @@
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
    &kp TAB       &kp Q        &kp W        &kp E              &kp R           &kp T         &kp Y &kp U  &kp I     &kp O     &kp P      &kp BSLH
-   &mt LALT GRAVE     &bhm LSHFT A  &lt 5 S      &lt 4 D            &lt 3 F         &kp G  &kp H &kp J  &kp K     &kp L     &bhm RSHFT SEMI &mt RALT SQT
-   &kp HOME   &kp Z   &kp X        &kp C              &kp V           &kp B         &kp N &kp M  &kp COMMA &kp DOT   &kp FSLH  &lt 3 END
+   // &mt LALT GRAVE     &bhm LSHFT A  &lt 5 S      &lt 4 D            &lt 3 F         &kp G  &kp H &kp J  &kp K     &kp L     &bhm RSHFT SEMI &mt RALT SQT
+   &mt LCTRL ESC     &bhm LSHFT A  &lt 5 S      &lt 4 D            &lt 3 F         &kp G  &kp H &kp J  &kp K     &kp L     &bhm RSHFT SEMI &mt RALT SQT
+   // &kp HOME   &kp Z   &kp X        &kp C              &kp V           &kp B         &kp N &kp M  &kp COMMA &kp DOT   &kp FSLH  &lt 3 END
+   &kp LGUI   &kp Z   &kp X        &kp C              &kp V           &kp B         &kp N &kp M  &kp COMMA &kp DOT   &kp FSLH  &lt 3 BSPC
                   // &kp LALT &lt 1 SPACE &lt 2 BSPC       &mt RSHFT RET     &lt 1 SPACE  &kp RALT
-                  &kp LGUI &mt LCTRL ESC &lt 1 BSPC       &lt 2 SPACE   &mt RCTRL RET  &mo 3
+                  &kp LGUI &mt LCTRL ESC &lt 1 BSPC       &lt 2 SPACE   &lt 1 RET  &kp RGUI
                         >;
                 };
 
@@ -65,8 +67,8 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp AMPS     &kp STAR     &kp LPAR  &kp RPAR  &kp UNDER  &kp PLUS   
-   // &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp N7     &kp N8     &kp N9 &kp N0 &kp MINUS &kp EQUAL  
+   // &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp AMPS     &kp STAR     &kp LPAR  &kp RPAR  &kp UNDER  &kp PLUS   
+   &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp N7     &kp N8     &kp N9 &kp N0 &kp MINUS &kp EQUAL  
    &kp TILDE       &trans       &trans    &trans   &trans       &trans            &trans   &trans   &trans &trans  &kp LBRC &kp RBRC   
    // &trans      &trans    &trans     &trans       &trans     &trans    &trans     &trans     &trans       &trans &kp LBKT  &kp RBKT 
    // &trans     &kp RET      &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &trans     &kp PG_DN    &kp PG_UP    &kp LBKT &kp RBKT &kp MINUS
@@ -85,7 +87,7 @@
    &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT       &kp CARET   &kp N7   &kp N8 &kp N9    &kp N0    &kp MINUS &kp EQUAL
    // &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT      &kp CARET  &kp AMPS     &kp STAR     &kp LPAR &kp RPAR &kp UNDER &kp PLUS  
    // &kp TILDE       &trans       &trans    &trans   &trans       &trans            &trans   &trans   &trans &trans  &kp LBRC &kp RBRC   
-   &trans      &trans    &trans     &trans       &trans     &trans    &trans     &trans     &trans       &trans &kp LBKT  &kp RBKT 
+   &kp GRAVE      &trans    &trans     &trans       &trans     &trans    &trans     &trans     &trans       &trans &kp LBKT  &kp RBKT 
    // &trans     &trans       &trans       &trans       &trans       &trans            &trans   &trans   &trans &kp LBRC  &kp RBRC &kp UNDER
    &trans &trans   &trans  &trans   &trans  &trans    &trans       &trans  &trans   &trans &trans &trans
                                &trans            &trans  &mo 5      &trans   &trans   &trans
