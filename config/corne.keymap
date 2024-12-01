@@ -56,7 +56,7 @@
    // &kp HOME   &kp Z   &kp X        &kp C              &kp V           &kp B         &kp N &kp M  &kp COMMA &kp DOT   &kp FSLH  &lt 3 END
    &kp LGUI   &kp Z   &kp X        &kp C              &kp V           &kp B         &kp N &kp M  &kp COMMA &kp DOT   &kp FSLH  &lt 3 BSPC
                   // &kp LALT &lt 1 SPACE &lt 2 BSPC       &mt RSHFT RET     &lt 1 SPACE  &kp RALT
-                  &kp LGUI &mt LCTRL ESC &lt 1 BSPC       &lt 2 SPACE   &lt 1 RET  &kp RGUI
+                  &kp LGUI &mt LCTRL ESC &lt 1 BSPC       &lt 2 SPACE   &lt 1 RET  &kp LALT
                         >;
                 };
 
