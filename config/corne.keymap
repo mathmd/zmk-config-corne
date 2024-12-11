@@ -73,7 +73,7 @@
    // &trans      &trans    &trans     &trans       &trans     &trans    &trans     &trans     &trans       &trans &kp LBKT  &kp RBKT 
    // &trans     &kp RET      &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &trans     &kp PG_DN    &kp PG_UP    &kp LBKT &kp RBKT &kp MINUS
    &trans     &trans           &trans &trans &trans   &trans            &trans  &trans &trans  &trans  &kp BSLH  &trans
-                                        &trans       &trans       &trans       &kp LC(BSPC)     &kp LC(DEL)       &trans
+                                        &trans       &trans       &trans       &kp LC(BSPC)     &kp BSPC       &trans
                         >;
                 };
 
@@ -90,7 +90,7 @@
    &kp TILDE      &trans    &trans     &trans       &trans     &trans    &trans    &kp MINUS     &kp EQUAL   &kp LBKT  &kp RBKT &kp BSLH
    // &trans     &trans       &trans       &trans       &trans       &trans            &trans   &trans   &trans &kp LBRC  &kp RBRC &kp UNDER
    &trans &trans   &trans  &trans   &trans  &trans    &trans       &trans  &trans   &trans &trans &trans
-                               &trans            &kp DEL  &kp BSPC      &trans   &trans   &trans
+                               &trans            &kp DEL  &kp LC(DEL)      &trans   &trans   &trans
                         >;
                 };
 
