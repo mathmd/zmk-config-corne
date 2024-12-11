@@ -56,7 +56,7 @@
    &kp TAB   &kp Z   &kp X        &kp C              &lt 4 V           &kp B         &kp N &kp M  &kp COMMA &kp DOT   &kp FSLH  &kp BSLH
    // &kp LGUI   &lt 3 Z   &kp X        &kp C              &kp V           &kp B         &kp N &kp M  &kp COMMA &kp DOT   &lt 3 FSLH  &kp BSPC
                   // &kp LALT &lt 1 SPACE &lt 2 BSPC       &mt RSHFT RET     &lt 1 SPACE  &kp RALT
-                  &kp LGUI &mt LCTRL ESC &lt 1 TAB       &lt 2 SPACE   &mt LALT RET  &lt 3 COLON
+                  &kp LGUI &mt LCTRL ESC &lt 1 TAB       &lt 2 SPACE   &mt LALT RET  &lt 3 LS(SEMI)
                         >;
                 };
 
