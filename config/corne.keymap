@@ -67,13 +67,13 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp CARET  &kp AMPS     &kp STAR     &kp LPAR  &kp RPAR  &kp UNDER     
+   &trans &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp CARET  &kp AMPS     &kp STAR     &kp LPAR  &kp RPAR  &trans
    // &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp N7     &kp N8     &kp N9 &kp N0 &kp MINUS &kp EQUAL  
-   &trans      &trans       &trans    &trans   &trans       &trans            &kp LC(BSPC)   &kp UNDER   &kp PLUS &kp LBRC  &kp RBRC &kp LC(DEL)   
+   &trans      &trans       &trans    &trans   &trans       &trans            &trans   &kp UNDER   &kp PLUS &kp LBRC  &kp RBRC &kp PIPE
    // &trans      &trans    &trans     &trans       &trans     &trans    &trans     &trans     &trans       &trans &kp LBKT  &kp RBKT 
    // &trans     &kp RET      &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &trans     &kp PG_DN    &kp PG_UP    &kp LBKT &kp RBKT &kp MINUS
-   &trans     &trans           &trans &trans &trans   &trans            &trans  &trans &trans  &trans  &trans  &trans
-                                        &trans       &trans       &trans       &mo 5     &trans       &trans
+   &trans     &trans           &trans &trans &trans   &trans            &trans  &trans &trans  &trans  &kp BSLH  &trans
+                                        &trans       &trans       &trans       &kp LC(BSPC)     &kp LC(DEL)       &trans
                         >;
                 };
 
@@ -84,13 +84,13 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT       &kp N6   &kp N7   &kp N8 &kp N9    &kp N0    &kp MINUS 
+   &trans &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT       &kp N6   &kp N7   &kp N8 &kp N9    &kp N0    &trans
    // &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT      &kp CARET  &kp AMPS     &kp STAR     &kp LPAR &kp RPAR &kp UNDER &kp PLUS  
    // &kp TILDE       &trans       &trans    &trans   &trans       &trans            &trans   &trans   &trans &trans  &kp LBRC &kp RBRC   
-   &kp TILDE      &trans    &trans     &trans       &trans     &trans    &kp BSPC    &kp MINUS     &kp EQUAL   &kp LBKT  &kp RBKT &kp DEL 
+   &kp TILDE      &trans    &trans     &trans       &trans     &trans    &trans    &kp MINUS     &kp EQUAL   &kp LBKT  &kp RBKT &kp BSLH
    // &trans     &trans       &trans       &trans       &trans       &trans            &trans   &trans   &trans &kp LBRC  &kp RBRC &kp UNDER
    &trans &trans   &trans  &trans   &trans  &trans    &trans       &trans  &trans   &trans &trans &trans
-                               &trans            &trans  &mo 5      &trans   &trans   &trans
+                               &trans            &kp DEL  &kp BSPC      &trans   &trans   &trans
                         >;
                 };
 
