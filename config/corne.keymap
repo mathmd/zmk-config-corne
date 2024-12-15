@@ -56,7 +56,7 @@
    &kp CAPS   &kp Z   &kp X        &kp C              &lt 4 V           &kp B         &kp N &kp M  &kp COMMA &kp DOT   &kp FSLH  &kp END
    // &kp LGUI   &lt 3 Z   &kp X        &kp C              &kp V           &kp B         &kp N &kp M  &kp COMMA &kp DOT   &lt 3 FSLH  &kp BSPC
                   // &kp LALT &lt 1 SPACE &lt 2 BSPC       &mt RSHFT RET     &lt 1 SPACE  &kp RALT
-                  &kp LGUI &mt LCTRL ESC &lt 1 BSLH       &lt 2 SPACE   &mt LALT RET  &lt 3 TAB
+                  &kp LGUI &mt LCTRL ESC &lt 1 TAB       &lt 2 SPACE   &mt LALT RET  &lt 3 LS(TAB)
                         >;
                 };
 
@@ -67,7 +67,8 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp CARET  &kp AMPS     &kp STAR     &kp LPAR  &kp RPAR  &trans
+   &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp AMPS     &kp STAR     &kp LPAR  &kp RPAR  &kp LS(BSLH) &trans 
+   // &trans &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp CARET  &kp AMPS     &kp STAR     &kp LPAR  &kp RPAR  &trans
    // &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp N7     &kp N8     &kp N9 &kp N0 &kp MINUS &kp EQUAL  
    &trans    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  &kp BSPC   &kp UNDER   &kp PLUS &kp LBRC  &kp RBRC &trans
    // &trans      &trans    &trans     &trans       &trans     &trans    &trans     &trans     &trans       &trans &kp LBKT  &kp RBKT 
@@ -84,7 +85,8 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT       &kp N6   &kp N7   &kp N8 &kp N9    &kp N0    &trans
+   &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT       &kp CARET   &kp N7   &kp N8 &kp N9    &kp N0    &kp BSLH &trans 
+   // &trans &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT       &kp N6   &kp N7   &kp N8 &kp N9    &kp N0    &trans
    // &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT      &kp CARET  &kp AMPS     &kp STAR     &kp LPAR &kp RPAR &kp UNDER &kp PLUS  
    // &kp TILDE       &trans       &trans    &trans   &trans       &trans            &trans   &trans   &trans &trans  &kp LBRC &kp RBRC   
    &mt LALT TILDE      &trans    &trans     &trans       &trans     &kp DEL    &trans    &kp MINUS     &kp EQUAL   &kp LBKT  &kp RBKT &mt RCTRL BSLH
