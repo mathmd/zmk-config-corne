@@ -53,7 +53,7 @@
    &kp DEL       &kp Q        &kp W        &kp E              &kp R           &kp T         &kp Y &kp U  &kp I     &kp O     &kp P      &kp MINUS
    &bhm LCTRL GRAVE     &bhm LSHFT A  &lt 5 S      &kp D            &lt 3 F         &kp G  &kp H &kp J  &kp K     &kp L     &bhm RSHFT SEMI &bhm RALT SQT
    // &mt LCTRL ESC     &bhm LSHFT A  &lt 5 S      &lt 4 D            &kp F         &kp G  &kp H &kp J  &kp K     &kp L     &bhm RSHFT SEMI &mt LALT SQT
-   &kp RET   &kp Z   &kp X        &kp C              &lt 4 V           &kp B         &kp N &lt 3 M  &kp COMMA &kp DOT   &kp FSLH  &kp EQUAL
+   &mt LSHFT RET   &kp Z   &kp X        &kp C              &lt 4 V           &kp B         &kp N &lt 3 M  &kp COMMA &kp DOT   &kp FSLH  &mt RSHFT EQUAL
    // &kp LGUI   &lt 3 Z   &kp X        &kp C              &kp V           &kp B         &kp N &kp M  &kp COMMA &kp DOT   &lt 3 FSLH  &kp BSPC
                   // &kp LALT &lt 1 SPACE &lt 2 BSPC       &mt RSHFT RET     &lt 1 SPACE  &kp RALT
                   &kp LGUI &mt LALT ESC &lt 1 TAB       &lt 2 SPACE   &mt LCTRL RET  &mt RGUI K_APP
@@ -70,10 +70,10 @@
    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp AMPS     &kp STAR     &kp LPAR  &kp RPAR  &kp UNDER &kp PLUS 
    // &trans &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp CARET  &kp AMPS     &kp STAR     &kp LPAR  &kp RPAR  &trans
    // &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp N7     &kp N8     &kp N9 &kp N0 &kp MINUS &kp EQUAL  
-   &trans    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  &kp BSPC  &trans &kp LBRC  &kp RBRC  &kp PIPE   &trans
+   &trans    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  &kp BSPC  &trans &kp LBRC  &kp RBRC  &bhm RSHFT BSLH   &kp PIPE
    // &trans      &trans    &trans     &trans       &trans     &trans    &trans     &trans     &trans       &trans &kp LBKT  &kp RBKT 
    // &trans     &kp RET      &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &trans     &kp PG_DN    &kp PG_UP    &kp LBKT &kp RBKT &kp MINUS
-   &trans     &trans           &trans &trans &trans   &trans            &trans  &trans &trans  &trans  &trans  &trans
+   &trans     &trans           &trans &trans &trans   &trans            &trans  &trans &trans  &trans  &trans  &kp END
                                         &trans       &trans       &trans       &kp LC(BSPC)     &mt LALT BSPC       &trans
                         >;
                 };
@@ -89,7 +89,7 @@
    // &trans &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT       &kp N6   &kp N7   &kp N8 &kp N9    &kp N0    &trans
    // &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT      &kp CARET  &kp AMPS     &kp STAR     &kp LPAR &kp RPAR &kp UNDER &kp PLUS  
    // &kp TILDE       &trans       &trans    &trans   &trans       &trans            &trans   &trans   &trans &trans  &kp LBRC &kp RBRC   
-   &bhm LALT TILDE      &trans    &trans     &trans       &trans     &kp DEL    &trans    &trans &kp LBKT  &kp RBKT &kp BSLH     &kp HOME
+   &bhm LALT TILDE      &trans    &trans     &trans       &trans     &kp DEL    &trans    &trans &kp LBKT  &kp RBKT &kp HOME     &kp END
    // &trans     &trans       &trans       &trans       &trans       &trans            &trans   &trans   &trans &kp LBRC  &kp RBRC &kp UNDER
    &trans &trans   &trans  &trans   &trans  &trans    &trans       &trans  &trans   &trans &trans &kp END
                                &trans            &mt LCTRL DEL  &kp LC(DEL)      &trans   &trans   &trans
