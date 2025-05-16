@@ -77,8 +77,8 @@
    &trans     &trans           &trans &trans &trans   &trans        &kp BSPC  &trans &kp LBRC  &kp RBRC  &bhm RSHFT BSLH   &kp HOME
    // &trans      &trans    &trans     &trans       &trans     &trans    &trans     &trans     &trans       &trans &kp LBKT  &kp RBKT 
    // &trans     &kp RET      &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &trans     &kp PG_DN    &kp PG_UP    &kp LBKT &kp RBKT &kp MINUS
-   &trans    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &trans  &trans &kp LBKT &kp RBKT  &kp PIPE  &kp END
-                                        &trans       &trans       &trans       &kp LC(BSPC)     &mt LALT BSPC       &trans
+   &trans    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &kp SPACE  &kp RET &kp LBKT &kp RBKT  &kp PIPE  &kp END
+                                        &trans       &trans       &trans       &kp LC(BSPC)     &trans       &trans
                         >;
                 };
 
@@ -96,7 +96,7 @@
    &bhm LALT TILDE      &trans    &trans     &trans       &trans     &kp DEL    &trans    &trans &kp LBKT  &kp RBKT &trans     &kp HOME
    // &trans     &trans       &trans       &trans       &trans       &trans            &trans   &trans   &trans &kp LBRC  &kp RBRC &kp UNDER
    &trans &trans   &trans  &trans   &trans  &trans    &trans       &trans  &trans   &trans &trans &kp END
-                               &trans            &mt LCTRL DEL  &kp LC(DEL)      &trans   &trans   &to 6
+                               &trans            &trans  &kp LC(DEL)      &trans   &trans   &to 6
                         >;
                 };
 
@@ -107,12 +107,9 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   // &trans &kp F1   &kp F2  &kp F3   &kp F4  &trans   &kp PRCNT &kp KP_N7  &kp KP_N8  &kp KP_N9 &kp KP_N0    &kp KP_PLUS
-   // &trans &kp F5   &kp F6  &kp F7   &kp F8  &trans      &kp ASTRK &kp KP_N4  &kp KP_N5  &kp KP_N6 &kp KP_DOT   &kp KP_MINUS
-   // &trans &kp F9   &kp F10 &trans   &kp F11 &kp F12     &kp SLASH &kp KP_N1  &kp KP_N2  &kp KP_N3 &kp KP_COMMA &kp KP_EQUAL
-   &trans &kp F1   &kp F2  &kp F3   &kp F4  &trans      &kp N7  &kp N8  &kp N9 &kp N0  &kp PLUS   &kp MINUS 
-   &to 7 &kp F5   &kp F6  &kp F7   &kp F8  &to 6   &kp ASTRK &kp N4  &kp N5  &kp N6 &kp DOT &kp COMMA   
-   &trans &kp F9   &kp F10 &kp F11  &kp F12 &trans      &kp CARET &kp N1  &kp N2  &kp N3  &kp SLASH   &kp EQUAL
+   &kp F1   &kp F2  &kp F3   &kp F4  &kp F5   &kp F6        &kp N7  &kp N8  &kp N9 &kp N0  &kp PLUS   &kp MINUS 
+   &kp F7   &kp F8  &kp F9   &kp F10 &kp F11  &kp F12    &kp ASTRK &kp N4  &kp N5  &kp N6 &kp DOT &kp COMMA   
+   &to 6 &trans &trans &trans &to 7 &trans       &kp CARET &kp N1  &kp N2  &kp N3  &kp SLASH   &kp EQUAL
                   // &kp LGUI &mt LALT ESC &lt 1 TAB       &lt 2 SPACE   &mt LCTRL RET  &mt RGUI K_APP
                   &kp LGUI &mt LCTRL ESC &lt 1 TAB       &lt 2 SPACE   &mt LALT RET  &mt RGUI K_APP
                            // &trans &trans  &trans      &trans    &trans  &trans
@@ -126,9 +123,6 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   // &trans &kp F1   &kp F2  &kp F3   &kp F4  &trans   &kp PRCNT &kp KP_N7  &kp KP_N8  &kp KP_N9 &kp KP_N0    &kp KP_PLUS
-   // &trans &kp F5   &kp F6  &kp F7   &kp F8  &trans      &kp ASTRK &kp KP_N4  &kp KP_N5  &kp KP_N6 &kp KP_DOT   &kp KP_MINUS
-   // &trans &kp F9   &kp F10 &trans   &kp F11 &kp F12     &kp SLASH &kp KP_N1  &kp KP_N2  &kp KP_N3 &kp KP_COMMA &kp KP_EQUAL
    &bt BT_CLR &trans   &trans  &trans   &trans  &trans   &trans &trans  &trans  &trans &kp C_PP    &trans
    &trans &trans   &trans  &trans  &trans  &trans   &kp C_PREV &kp C_VOL_DN &kp C_VOL_UP  &kp C_NEXT &trans   &trans
    &trans &trans   &trans  &trans   &trans  &trans   &trans &kp C_MUTE  &kp C_BRI_DN   &kp C_BRI_UP &trans  &trans &trans &trans
@@ -143,9 +137,6 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   // &trans &kp F1   &kp F2  &kp F3   &kp F4  &trans   &kp PRCNT &kp KP_N7  &kp KP_N8  &kp KP_N9 &kp KP_N0    &kp KP_PLUS
-   // &trans &kp F5   &kp F6  &kp F7   &kp F8  &trans      &kp ASTRK &kp KP_N4  &kp KP_N5  &kp KP_N6 &kp KP_DOT   &kp KP_MINUS
-   // &trans &kp F9   &kp F10 &trans   &kp F11 &kp F12     &kp SLASH &kp KP_N1  &kp KP_N2  &kp KP_N3 &kp KP_COMMA &kp KP_EQUAL
    &trans &trans   &trans  &trans   &trans  &trans   &trans   &trans    &trans  &trans    &trans   &trans
    &trans &trans   &mo 4  &trans   &trans  &trans   &kp LEFT &kp DOWN  &kp UP  &kp RIGHT &trans &kp HOME
    &trans &trans   &trans &trans  &trans &trans   &trans   &trans   &trans  &trans    &trans   &kp END
@@ -162,12 +153,12 @@
 // | S/HM |  z  |  x  |  c  |  v  |  b  |   |  n  |  m   |  ,  |  .  |  /  | A/ED |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp T  &kp TAB       &kp Q               &kp W       &kp E              &kp R          &kp Y &kp U  &kp I     &kp O     &kp P      &kp MINUS
-   &kp LCTRL  &kp LSHFT     &kp A               &kp S       &kp D              &kp F          &kp H &kp J  &kp K     &kp L     &bhm RSHFT SEMI &bhm RALT G
-   &kp B  &kp GRAVE     &kp Z               &kp X       &kp C              &kp V          &kp N &lt 3 M  &kp COMMA &kp DOT   &kp FSLH  &mt RSHFT EQUAL
+   &kp GRAVE  &kp TAB       &kp Q               &kp W       &kp E              &kp R          &kp Y &kp U  &kp I     &kp O     &kp P      &kp T
+   &to 0  &kp LSHFT     &kp A               &kp S       &kp D              &kp F          &kp H &kp J  &kp K     &kp L     &bhm RSHFT SEMI &bhm RALT G
+   &to 7  &kp CTRL     &kp Z               &kp X       &kp C              &kp V          &kp N &lt 3 M  &kp COMMA &kp DOT   &kp FSLH  &mt RSHFT B
    // &kp LGUI   &lt 3 Z   &kp X        &kp C              &kp V           &kp B         &kp N &kp M  &kp COMMA &kp DOT   &lt 3 FSLH  &kp BSPC
                   // &kp LALT &lt 1 SPACE &lt 2 BSPC       &mt RSHFT RET     &lt 1 SPACE  &kp RALT
-                  &kp LALT &kp ESC  &kp SPACE       &kp GRAVE   &mt LCTRL RET  &to 0
+                  &kp LALT &kp ESC  &kp SPACE       &trans   &mt LCTRL RET  &mt RGUI K_APP
                         >;
                 };
 
@@ -178,14 +169,11 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   // &trans &kp F1   &kp F2  &kp F3   &kp F4  &trans   &kp PRCNT &kp KP_N7  &kp KP_N8  &kp KP_N9 &kp KP_N0    &kp KP_PLUS
-   // &trans &kp F5   &kp F6  &kp F7   &kp F8  &trans      &kp ASTRK &kp KP_N4  &kp KP_N5  &kp KP_N6 &kp KP_DOT   &kp KP_MINUS
-   // &trans &kp F9   &kp F10 &trans   &kp F11 &kp F12     &kp SLASH &kp KP_N1  &kp KP_N2  &kp KP_N3 &kp KP_COMMA &kp KP_EQUAL
-   &trans &trans   &trans  &mmv MOVE_UP   &trans  &trans   &trans   &trans    &trans  &trans    &msc SCRL_UP   &trans
-   &to 0 &trans   &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &trans   &mkp MB4 &mkp LCLK  &mkp RCLK  &mkp MB5 &msc SCRL_LEFT &trans
-   &trans &trans   &trans &trans  &trans &trans   &msc SCRL_DOWN   &mkp MCLK   &msc SCRL_RIGHT  &trans    &trans   &trans
+   &trans &trans   &trans      &mmv MOVE_UP   &trans  &trans   &trans   &trans    &trans  &trans    &msc SCRL_UP   &trans
+   &to 0 &trans   &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &trans   &msc SCRL_LEFT &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT &mkp MB5  &trans
+   &to 6 &trans   &trans &trans  &to 0 &trans   &trans   &trans   &mkp MB4  &trans    &trans   &trans
                   // &kp LGUI &mt LALT ESC &lt 1 TAB       &lt 2 SPACE   &mt LCTRL RET  &mt RGUI K_APP
-                  &kp LGUI &mt LCTRL ESC &lt 1 TAB       &lt 2 SPACE   &mt LALT RET  &mt RGUI K_APP
+                  &kp LGUI &mt LCTRL ESC &mkp RCLK       &mkp LCLK   &mt LALT RET  &mt RGUI K_APP
                            // &trans &trans  &trans      &trans    &trans     &trans
                         >;
                 };
