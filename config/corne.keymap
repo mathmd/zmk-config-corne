@@ -169,9 +169,9 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans &trans   &trans      &mmv MOVE_UP   &trans  &trans   &trans   &trans    &trans  &trans    &msc SCRL_UP   &trans
+   &trans &trans   &trans      &mmv MOVE_UP   &trans  &trans   &trans   &trans    &trans  &trans    &trans   &trans
    &to 0 &trans   &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &trans   &msc SCRL_LEFT &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT &mkp MB5  &trans
-   &to 6 &trans   &trans &trans  &to 0 &trans   &trans   &msc SCRL_DOWN   &mkp MB4  &trans    &trans   &trans
+   &to 6 &trans   &trans &trans  &to 0 &trans   &trans   &mkp MB3   &mkp MB4  &trans    &trans   &trans
                   // &kp LGUI &mt LALT ESC &lt 1 TAB       &lt 2 SPACE   &mt LCTRL RET  &mt RGUI K_APP
                   // &kp LGUI &mt LCTRL ESC &mkp RCLK       &mkp LCLK   &mt LALT RET  &mt RGUI K_APP
                   &kp LGUI &to 0 &kp TAB       &kp SPACE   &mkp LCLK  &mkp RCLK
