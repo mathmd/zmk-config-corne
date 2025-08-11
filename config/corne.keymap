@@ -71,7 +71,8 @@
                                                                         // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
                                                                         //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp AMPS     &kp STAR     &kp LPAR  &kp RPAR  &kp UNDER &kp PLUS 
+   // &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp AMPS     &kp STAR     &kp LPAR  &kp RPAR  &kp UNDER &kp PLUS 
+   &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp LS(N7)     &kp LS(N8)     &kp LS(N9)  &kp LS(N0)  &kp LS(MINUS) &kp LS(EQUAL) 
    // &trans &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp CARET  &kp AMPS     &kp STAR     &kp LPAR  &kp RPAR  &trans
    // &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp N7     &kp N8     &kp N9 &kp N0 &kp MINUS &kp EQUAL  
    &trans     &trans           &trans &trans &trans   &trans        &kp BSPC  &trans &kp LBRC  &kp RBRC  &bhm RSHFT BSLH   &kp HOME
@@ -89,7 +90,8 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT       &kp CARET   &kp N7   &kp N8 &kp N9    &kp N0    &kp MINUS &kp EQUAL 
+   // &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT       &kp CARET   &kp N7   &kp N8 &kp N9    &kp N0    &kp MINUS &kp EQUAL 
+   &kp LS(N1)     &kp LS(N2)       &kp LS(N3)     &kp LS(N4)   &kp LS(N5)       &kp LS(N6)   &kp N7   &kp N8 &kp N9    &kp N0    &kp MINUS &kp EQUAL 
    // &trans &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT       &kp N6   &kp N7   &kp N8 &kp N9    &kp N0    &trans
    // &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT      &kp CARET  &kp AMPS     &kp STAR     &kp LPAR &kp RPAR &kp UNDER &kp PLUS  
    // &kp TILDE       &trans       &trans    &trans   &trans       &trans            &trans   &trans   &trans &trans  &kp LBRC &kp RBRC   
