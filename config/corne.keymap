@@ -160,7 +160,7 @@
    &kp BSLH  &kp Z               &kp X       &kp C  &kp V  &kp B       &kp N &lt 7 M  &kp COMMA &kp DOT   &kp FSLH  &kp EQUAL
    // &kp LGUI   &lt 3 Z   &kp X        &kp C              &kp V           &kp B         &kp N &kp M  &kp COMMA &kp DOT   &lt 3 FSLH  &kp BSPC
                   // &kp LALT &lt 1 SPACE &lt 2 BSPC       &mt RSHFT RET     &lt 1 SPACE  &kp RALT
-                  &kp LALT &mt LCTRL TAB  &kp SPACE       &kp SPACE   &mt LCTRL RET  &mt RGUI K_APP
+                  &mt LALT BSPC &mt LCTRL TAB  &kp SPACE       &kp SPACE   &mt LCTRL RET  &mt RGUI K_APP
                         >;
                 };
 
