@@ -75,10 +75,10 @@
    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp LS(N7)     &kp LS(N8)     &kp LS(N9)  &kp LS(N0)  &kp LS(MINUS) &kp LS(EQUAL) 
    // &trans &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp CARET  &kp AMPS     &kp STAR     &kp LPAR  &kp RPAR  &trans
    // &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6  &kp N7     &kp N8     &kp N9 &kp N0 &kp MINUS &kp EQUAL  
-   &trans     &trans           &trans &trans &trans   &trans        &kp BSPC  &trans &kp LBRC  &kp RBRC  &bhm RSHFT BSLH   &kp HOME
+   &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2   &bt BT_SEL 1    &bt BT_SEL 0  &kp DEL        &kp BSPC  &trans &kp LBRC  &kp RBRC  &bhm RSHFT BSLH   &kp HOME
    // &trans      &trans    &trans     &trans       &trans     &trans    &trans     &trans     &trans       &trans &kp LBKT  &kp RBKT 
    // &trans     &kp RET      &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &trans     &kp PG_DN    &kp PG_UP    &kp LBKT &kp RBKT &kp MINUS
-   &trans    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &kp SPACE  &kp RET &kp LBKT &kp RBKT  &kp PIPE  &kp END
+   &trans    &trans &trans &trans &trans &trans      &kp SPACE  &kp RET &kp LBKT &kp RBKT  &kp PIPE  &kp END
                                         &trans       &trans       &trans       &kp LC(BSPC)     &trans       &trans
                         >;
                 };
@@ -95,9 +95,9 @@
    // &trans &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT       &kp N6   &kp N7   &kp N8 &kp N9    &kp N0    &trans
    // &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PERCENT      &kp CARET  &kp AMPS     &kp STAR     &kp LPAR &kp RPAR &kp UNDER &kp PLUS  
    // &kp TILDE       &trans       &trans    &trans   &trans       &trans            &trans   &trans   &trans &trans  &kp LBRC &kp RBRC   
-   &bhm LALT TILDE      &trans    &trans     &trans       &trans     &kp DEL    &trans    &trans &kp LBKT  &kp RBKT &trans     &kp HOME
+   &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2   &bt BT_SEL 1    &bt BT_SEL 0  &kp DEL    &trans    &trans &kp LBKT  &kp RBKT &trans     &kp HOME
    // &trans     &trans       &trans       &trans       &trans       &trans            &trans   &trans   &trans &kp LBRC  &kp RBRC &kp UNDER
-   &trans    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4    &trans       &trans  &trans   &trans &trans &kp END
+   &trans    &trans &trans &trans &trans &trans    &trans       &trans  &trans   &trans &trans &kp END
                                &trans            &trans  &kp LC(DEL)      &trans   &trans   &to 6
                         >;
                 };
