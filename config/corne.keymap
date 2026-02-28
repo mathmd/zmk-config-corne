@@ -98,7 +98,7 @@
    &trans    &trans &trans &trans &trans &kp DEL    &trans    &trans &kp LBKT  &kp RBKT &trans     &kp HOME
    // &trans     &trans       &trans       &trans       &trans       &trans            &trans   &trans   &trans &kp LBRC  &kp RBRC &kp UNDER
    &trans    &trans &trans &trans &trans &trans    &trans       &trans  &trans   &trans &trans &kp END
-                               &trans            &trans  &kp LC(DEL)      &trans   &trans   &to 6
+                               &trans            &kp CAPS  &kp LC(DEL)      &trans   &trans   &to 6
                         >;
                 };
 
