@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.2 # 'main' has moved to v0.3 (Zaphyr 4.1) which breaks the build
       import: app/west.yml
   self:
     path: config
